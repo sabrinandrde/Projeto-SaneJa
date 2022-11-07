@@ -8,7 +8,7 @@ import { Link, useNavigate } from "react-router-dom";
 import swal from "sweetalert2";
 import validator from "validator";
 import axios from "axios";
-import api from "../api/api";
+import api from "../../api/api";
 
 function Cadastro() {
   const [nome, setNome] = useState("");
